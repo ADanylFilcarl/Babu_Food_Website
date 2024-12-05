@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CartPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cartp">
+        <div class="navbar">              
+         <ul>
+            <li><h2>BABU <span class="navh2">Food</span></h2></li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="promo.html">Promo</a></li>
+             <li><a href="cart.html">Cart</a></li>
+             <li><a href="about.html">About</a></li>
+         </ul>
+        </div>
+
+        <div class="cart-wrapper">
+            <h1>Shopping Cart</h1>
+    
+
+            <div class="cart-header">
+                <div class="header-item">Product</div>
+                <div class="header-item">Price</div>
+                <div class="header-item">Quantity</div>
+                <div class="header-item">Total</div>
+                <div class="header-item">Action</div>
+            </div>
+    
+
+            <div class="cart-item">
+                <div class="item-detail">
+                    <img src="beef burger.png" alt="Product Image">
+                    <p>Beef Burger</p>
+                </div>
+                <div class="item-price">₱60</div>
+                <div class="item-quantity">
+                    <button>-</button>
+                    <input type="text" value="1">
+                    <button>+</button>
+                </div>
+                <div class="item-total">₱60</div>
+                <div class="item-action">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <div class="item-detail">
+                    <img src="chocolate-peanut-butter-milkshake-recipe-683x1024-removebg-preview.png" alt="Product Image">
+                    <p>Chocolate Peanut Butter Milkshake</p>
+                </div>
+                <div class="item-price">₱69</div>
+                <div class="item-quantity">
+                    <button>-</button>
+                    <input type="text" value="2">
+                    <button>+</button>
+                </div>
+                <div class="item-total">₱138</div>
+                <div class="item-action">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+    
+
+            <div class="cart-summary">
+                <p>Total Items: 3</p>
+                <p>Grand Total: <span>₱198</span></p>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+
+
+</body>
+</html>
